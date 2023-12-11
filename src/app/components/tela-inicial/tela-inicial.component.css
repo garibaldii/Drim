@@ -3,6 +3,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+
 }
 
 main{
@@ -11,8 +14,53 @@ main{
 }
 
 #title{
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    left: 49%;
-    top: 52%;
-    font-size: 4vw;
+    left: 46%;
+    top: 40%;
+
+    align-items: center;
+
+    #drimTitle{
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    #drimDialog{
+        line-height: 0;
+        margin: 0;
+        font-size: 1.2vw;
+        font-weight: bold;
+    }
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 65%;
+    
+
+    button{
+        width: 30%;
+        height: 40px;
+        border: solid 0px;
+        background-color: #9A9E90;
+        border-radius: 13px;
+        cursor: pointer;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.1vw;
+
+ 
+
+
+
+    } 
+
+    button:active {
+        transform: translateX(2px);
+      }
 }
