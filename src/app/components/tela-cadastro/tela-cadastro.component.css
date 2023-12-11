@@ -1,14 +1,44 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #C0B6B6;
 }
 
-#cadastroLogin{
-    width: 40%;
-}
+
 
 #main{
     display: flex;
+    justify-content: center; 
+    background-color: white;
+    border-radius: 25px;
+    width: 50vw;
+    box-shadow: 10px 10px  #888888;
+}
+
+#cadastroLogin{
+
+    padding: 9%;
+    width: 90%;
+}
+
+.form-control{
+    background-color: #CCCCCC;
+    border-radius: 0px;
+}
+
+
+
+#subtitulo{
+    display: flex;
     justify-content: center;
-    margin: 0;
+}
+
+#botaoSubmit{
+    background-color: #CCCCCC;
+    border-radius: 0px;
+    color: black;
+    border: #888888;
 }

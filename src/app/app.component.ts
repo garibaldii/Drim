@@ -1,3 +1,4 @@
+import { PadraoDrimComponent } from './components/padrao-drim/padrao-drim.component';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
@@ -9,7 +10,7 @@ import { TelaCadastroComponent } from './components/tela-cadastro/tela-cadastro.
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, TelaInicialComponent, TelaCadastroComponent]
+    imports: [CommonModule, RouterOutlet, TelaInicialComponent, TelaCadastroComponent, PadraoDrimComponent]
 })
 export class AppComponent {
   title = 'Drim';

@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { PadraoDrimComponent } from '../padrao-drim/padrao-drim.component';
+
 
 @Component({
   selector: 'app-tela-cadastro',
   standalone: true,
-  imports: [],
+  imports: [PadraoDrimComponent],
   templateUrl: './tela-cadastro.component.html',
   styleUrl: './tela-cadastro.component.css'
 })

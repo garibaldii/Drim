@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rethink Sans', sans-serif;
+
+}
+
+#container{
+    display: flex;
+} 
+
+.linha{
+    width: 14vw;
+    padding-left: 30px ;
+    padding-right: 30px;
+}
