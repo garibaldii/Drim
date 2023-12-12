@@ -8,8 +8,6 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppRoutingModule } from './app.routes';
-import { TelaInicialComponent } from './components/tela-inicial/tela-inicial.component';
-import { AppComponent } from './app.component';
 
 
 @NgModule({//
