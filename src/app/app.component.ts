@@ -9,6 +9,7 @@ import { TelaCadastroComponent } from './components/tela-cadastro/tela-cadastro.
 //TelaInterativa
 import { TelaInicialComponent } from "./components/tela-inicial/tela-inicial.component";
 import { TelaPrincipalComponent } from './components/tela-principal/tela-principal.component';
+import { TelaEscreveSonhoComponent } from './components/tela-escreve-sonho/tela-escreve-sonho.component';
 import { PadraoDrimComponent } from './components/padrao-drim/padrao-drim.component';
 
 
@@ -18,7 +19,7 @@ import { PadraoDrimComponent } from './components/padrao-drim/padrao-drim.compon
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, TelaInicialComponent, TelaCadastroComponent, PadraoDrimComponent, TelaPrincipalComponent]
+    imports: [CommonModule, RouterOutlet, TelaInicialComponent, TelaCadastroComponent, PadraoDrimComponent, TelaPrincipalComponent, TelaEscreveSonhoComponent]
 })
 export class AppComponent {
   title = 'Drim';

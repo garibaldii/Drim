@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="" id="linkVoltar">Voltar</a>
+    </header>
+
+    <main>
+        <form id="cadastroSonho">
+
+
+            <h5 id="subtitulo">Escrever Sonho</h5>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="titulo" class="form-label">Título</label>
+                    <input type="text" class="form-control" id="titulo" name="titulo" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="data" class="form-label">Data</label>
+                    <input type="date" class="form-control" id="data" name="data" />
+                </div>
+            </div>
+
+
+
+            <label for="descricao" id="descricao">Descrição</label>
+            <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px" name="descricao"></textarea>
+            </div>
+
+
+            <div id="divEmocoes">
+
+                <h4>Emoções</h4>
+
+                <div id="inputEmocoes">
+
+                    <input type="checkbox" class="btn-check" name="alegria" id="option5" autocomplete="off">
+                    <label class="btn" for="option5">Alegria</label>
+
+                    <input type="checkbox" class="btn-check" name="tristeza" id="option6" autocomplete="off">
+                    <label class="btn" for="option6">Tristeza</label>
+
+                    <input type="checkbox" class="btn-check" name="raiva" id="option7" autocomplete="off">
+                    <label class="btn" for="option7">Raiva</label>
+
+                    <input type="checkbox" class="btn-check" name="euforia" id="option8" autocomplete="off">
+                    <label class="btn" for="option8">Euforia</label>
+
+                    <input type="checkbox" class="btn-check" name="medo" id="option9" autocomplete="off">
+                    <label class="btn" for="option9">Medo</label>
+
+                </div>
+
+
+            </div>
+
+            <div id="btnRodaPe">
+                <button type="submit" class="btn btn-primary" id="botaoSubmit">Salvar</button>
+            </div>
+        </form>
+    </main>
+
+
+</body>
+</html>
