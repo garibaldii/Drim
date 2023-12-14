@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+}
+
+header{
+    padding-left: 1%;
+    padding-top: 1%; 
+
+    #linkVoltar{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+
+    section{
+        text-align: center;
+        width: 30%;
+        padding: 2%;
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+        border: 1px solid; 
+        border-radius: 50%;
+        height: 50%; 
+        width: 30%;
+    }
+}
